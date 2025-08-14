@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.common-colour {
+  font-weight: 400px;
+  font-size: 16px;
+  color: rgba(13, 19, 33, 1);
+}
+nav h1 {
+  font-weight: 800;
+  font-size: 28px;
+  color: #0d1321;
+  letter-spacing: 0;
+  line-height: auto;
+}
+nav {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-primary {
+  background-color: white;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0d1321;
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: solid black;
+}
+.section1 {
+  background-image: url("../assets/Hero-bg.png");
+  margin-top: 33px;
+  max-width: 1140px;
+  margin: 36px auto;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  /* padding:auto 221px; */
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.section1 picture {
+  margin-top: 33px;
+}
+
+.section1-content {
+  font-size: 48px;
+  font-weight: 800px;
+  color: #0d1321;
+}
+.btn {
+  background-color: black;
+  max-width: 240px;
+  max-height: 65px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  padding: 24px 21px;
+  border-radius: 8px;
+}
+
+/* 2nd section */
+.web-dev-section {
+  padding: 30px;
+  margin-top: 74px;
+}
+
+.container {
+  border: 1px dashed #ccc;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.web-dev-section h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  max-width: 1140px;
+  max-height: 1393px;
+  margin: auto 148px;
+}
+
+.description {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.card .text {
+  width: 60%;
+}
+
+.card .text h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .text p {
+  font-weight: 400px;
+  font-size: 16px;
+  color: rgba(13, 19, 33, 1);
+}
+
+.card .text button {
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.card .image {
+  width: 35%;
+  text-align: right;
+}
+
+.card .image img {
+  width: 180px;
+}
