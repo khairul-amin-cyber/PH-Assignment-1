@@ -266,3 +266,41 @@ nav {
 .js-card {
   background: #fffde7;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+  
+  /* background: #f8f8f8; */
+  border-top: none;
+  font-family: "Azeret Mono", monospace;
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 1140px;
+  max-height: 36px;
+  gap: 30px;
+}
+
+.footer h2 {
+  margin: 0;
+}
+
+.social-icons a {
+  margin-left: 12px;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.15);
+}
+
