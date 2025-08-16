@@ -170,15 +170,96 @@ nav {
   margin-bottom: 20px;
 }
 
-.youtube-link {
-  background-color: #fff;
-  padding: 32px 32px;
-  border-radius: 16px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
 .youtube-link iframe {
   width: 100%;
   height: 480px;
   border-radius: 8px;
+}
+/* here new section vbegain */
+
+*/
+/* Apply Azeret Mono font */
+.current-target h2,
+.current-target h3,
+.current-target p,
+.current-target a {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.current-target {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.current-target h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.current-target p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Card container for 3 columns */
+.card2-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Card styles */
+.card2 {
+  padding: 30px 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.card img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.card a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Background colors for each card */
+.html-card {
+  background: #fff5f3;
+}
+.css-card {
+  background: #f3f7ff;
+}
+.js-card {
+  background: #fffde7;
 }
