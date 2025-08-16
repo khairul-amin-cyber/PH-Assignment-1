@@ -224,32 +224,35 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: start;
+  gap: 10px;
 }
 
-.card img {
+.card2 img {
   width: 70px;
   height: auto;
   margin-bottom: 15px;
+  
 }
 
-.card h3 {
+.card2 h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  padding-top: 12px;
 }
 
-.card p {
+.card2 p {
   font-size: 14px;
   color: #555;
   margin-bottom: 12px;
 }
 
-.card a {
+.card2 a {
   font-weight: bold;
   text-decoration: none;
   color: black;
 }
 
-.card a:hover {
+.card2 a:hover {
   text-decoration: underline;
 }
 
